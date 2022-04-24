@@ -1,6 +1,5 @@
-var a = [5, 9, 63, 29, 35, 6, 55, 23]
+var a = [5, 9, 63, 29, 35, 6, 55, 23].map(Number);
 var prime = [];
-
 function isPrime(item) {
     var identifier = item / 2;
       for (var j = 2; j <= identifier; j++) {
