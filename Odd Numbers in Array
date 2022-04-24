@@ -8,4 +8,4 @@ for (let value of myArr){
 }
 console.log(out.join(" "));
 };
-input(myArr)
+input(myArr);
