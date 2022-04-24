@@ -1,0 +1,10 @@
+let array = ["ebenezhar","selva","kumar"];
+let result = [];
+let res = function(array){
+for(let value of array){
+    result.push(value.toUpperCase());
+}
+return result;
+}
+
+console.log(res(array));
